@@ -1,7 +1,7 @@
 {
   "name": "volleyball-league-api",
   "version": "1.0.0",
-  "description": "API para inscripcion de equipos, jugadores y posiciones de una liga de volleyball",
+  "description": "API en memoria (arreglos) para inscripcion de equipos, jugadores y posiciones de una liga de volleyball",
   "private": true,
   "main": "src/server.js",
   "scripts": {
@@ -16,10 +16,7 @@
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
-    "morgan": "^1.11.0",
-    "pg": "^8.23.0",
-    "pg-hstore": "^2.3.4",
-    "sequelize": "^6.37.8"
+    "morgan": "^1.11.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
