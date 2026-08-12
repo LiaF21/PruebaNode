@@ -10,14 +10,23 @@ export const posiciones = [
 
 export const equipos = [];
 export const jugadores = [];
+export const arbitros = [];
+export const torneos = [];
+export const partidos = [];
 
 let equipoIdCounter = 1;
 let jugadorIdCounter = 1;
 let posicionIdCounter = posiciones.length + 1;
+let arbitroIdCounter = 1;
+let torneoIdCounter = 1;
+let partidoIdCounter = 1;
 
 export const nextEquipoId = () => equipoIdCounter++;
 export const nextJugadorId = () => jugadorIdCounter++;
 export const nextPosicionId = () => posicionIdCounter++;
+export const nextArbitroId = () => arbitroIdCounter++;
+export const nextTorneoId = () => torneoIdCounter++;
+export const nextPartidoId = () => partidoIdCounter++;
 
 export const esLibero = (posicion) => {
   if (!posicion) return false;
