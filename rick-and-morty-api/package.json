@@ -1,0 +1,14 @@
+{
+  "name": "rick-and-morty-api",
+  "version": "1.0.0",
+  "description": "rick and morty api proyectoo",
+  "private": true,
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
