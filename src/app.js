@@ -8,6 +8,7 @@ import posicionesRouter from './routes/posiciones.routes.js';
 import arbitrosRouter from './routes/arbitros.routes.js';
 import torneosRouter from './routes/torneos.routes.js';
 import partidosRouter from './routes/partidos.routes.js';
+import corporateRouter from './routes/corporate.routes.js';
 
 const app = express();
 
@@ -25,6 +26,7 @@ app.use('/api/posiciones', posicionesRouter);
 app.use('/api/arbitros', arbitrosRouter);
 app.use('/api/torneos', torneosRouter);
 app.use('/api/partidos', partidosRouter);
+app.use('/api/corporate', corporateRouter);
 
 app.use((req, res) => {
   res.status(404).json({ error: 'Ruta no encontrada' });
